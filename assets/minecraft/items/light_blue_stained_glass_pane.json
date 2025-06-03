@@ -1,0 +1,166 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/light_blue_stained_glass_pane"
+    },
+    "cases": [
+      {
+        "when": "friend",
+        "model": {
+          "type": "model",
+          "model": "item/friend"
+        }
+      },
+      {
+        "when": "mail",
+        "model": {
+          "type": "model",
+          "model": "item/mail"
+        }
+      },
+      {
+        "when": "point",
+        "model": {
+          "type": "model",
+          "model": "item/point"
+        }
+      },
+      {
+        "when": "shop",
+        "model": {
+          "type": "model",
+          "model": "item/shop"
+        }
+      },
+      {
+        "when": "daily",
+        "model": {
+          "type": "model",
+          "model": "item/daily"
+        }
+      },
+      {
+        "when": "game",
+        "model": {
+          "type": "model",
+          "model": "item/game"
+        }
+      },
+      {
+        "when": "sup",
+        "model": {
+          "type": "model",
+          "model": "item/sup"
+        }
+      },
+      {
+        "when": "team",
+        "model": {
+          "type": "model",
+          "model": "item/team"
+        }
+      },
+      {
+        "when": "guild",
+        "model": {
+          "type": "model",
+          "model": "item/guild"
+        }
+      },
+      {
+        "when": "achievement",
+        "model": {
+          "type": "model",
+          "model": "item/achievement"
+        }
+      },
+      {
+        "when": "bid",
+        "model": {
+          "type": "model",
+          "model": "item/bid"
+        }
+      },
+      {
+        "when": "clothing",
+        "model": {
+          "type": "model",
+          "model": "item/clothing"
+        }
+      },
+      {
+        "when": "expedition",
+        "model": {
+          "type": "model",
+          "model": "item/expedition"
+        }
+      },
+      {
+        "when": "hourse",
+        "model": {
+          "type": "model",
+          "model": "item/hourse"
+        }
+      },
+      {
+        "when": "snowfight",
+        "model": {
+          "type": "model",
+          "model": "item/snowfight"
+        }
+      },
+      {
+        "when": "title",
+        "model": {
+          "type": "model",
+          "model": "item/title"
+        }
+      },
+      {
+        "when": "trade",
+        "model": {
+          "type": "model",
+          "model": "item/trade"
+        }
+      },
+      {
+        "when": "worldquest",
+        "model": {
+          "type": "model",
+          "model": "item/worldquest"
+        }
+      },
+      {
+        "when": "wallet",
+        "model": {
+          "type": "model",
+          "model": "item/wallet"
+        }
+      },
+      {
+        "when": "profile",
+        "model": {
+          "type": "model",
+          "model": "item/profile"
+        }
+      },
+      {
+        "when": "dragon_slayer",
+        "model": {
+          "type": "model",
+          "model": "item/dragon_slayer"
+        }
+      },
+      {
+        "when": "return",
+        "model": {
+          "type": "model",
+          "model": "item/return"
+        }
+      }
+    ]
+  }
+}
